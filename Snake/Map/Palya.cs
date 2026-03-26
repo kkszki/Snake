@@ -12,11 +12,11 @@ namespace Snake.Map
         {
             string[,] palya = new string[sorok, oszlopok];
 
-            for (int i = 0; i < sorok; i++) // Végigmegyünk a sorokon
+            for (int i = 0; i < sorok; i++) 
             {
-                for (int j = 0; j < oszlopok; j++) // Végigmegyünk az oszlopokon
+                for (int j = 0; j < oszlopok; j++)
                 {
-                    // Például feltöltjük koordinátákkal vagy üres karakterrel
+                 
                     palya[i, j] = $"[{i},{j}]";
                 }
             }

@@ -22,5 +22,10 @@ namespace Snake.View
                 Console.WriteLine();
             }
         }
+
+        public static void Iranyitas()
+        {
+
+        }
     }
 }
