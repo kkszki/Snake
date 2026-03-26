@@ -43,14 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kigyo\Kigyorol.cs" />
+    <Compile Include="Map\Palya.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\Megjelenit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="Database\snake.sql" />
+=======
+    <Folder Include="Controller\" />
+    <Folder Include="User\" />
+>>>>>>> a40f40616964526a4f4d03c55599de292a9e3445
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
