@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Snake
+namespace Snake.View
 {
-    internal class Program
+    internal class MainView
     {
-        static void Main(string[] args)
+        public static void PalyaAdatBekero()
         {
+            Console.WriteLine("Tisztletem!");
 
+            
         }
     }
 }
